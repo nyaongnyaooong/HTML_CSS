@@ -1,0 +1,20 @@
+div, input, textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+table {
+  /* 테이블 경계제거 */
+  border-collapse: collapse;
+}
+
+.v-align {
+  vertical-align: top;
+}

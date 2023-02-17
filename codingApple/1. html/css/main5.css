@@ -1,3 +1,7 @@
+div, input, textarea {
+  box-sizing: border-box;
+}
+
 .main-background {
   width: 100%;
   height: 500px;
@@ -52,4 +56,70 @@
   position: relative;
   top: -40px;
 
+}
+
+.contact-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.contact-main {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+
+}
+
+.contact-main h4 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+.form-input {
+  width: 100%;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-checkbox {
+
+}
+
+.form-button {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+  border: 1px solid black;
+  display: block;
+  float: right;
+
+  margin-left: auto;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  
 }
